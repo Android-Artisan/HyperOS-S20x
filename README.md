@@ -38,6 +38,8 @@
 
 > **Note:** This is a raw `system.img`. It must be flashed via **Fastboot**. Make sure to back up your data and know what you're doing.
 
+## [HyperOS Download](https://drive.usercontent.google.com/download?id=1evFw-23jmfMp_prehsbECpYtNo04d7L6&export=download&authuser=9)
+
 ### Requirements:
 - Unlocked bootloader  
 - ADB & Fastboot installed on your PC  
