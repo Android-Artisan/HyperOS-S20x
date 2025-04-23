@@ -91,7 +91,7 @@
 ### Contributors
 - NeverLose
 - YacineGTI
-- TheExinosHater
+- TheExynosHater
 
 ### Thank You To
 - HyperOS by Xiaomi  
