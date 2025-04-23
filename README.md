@@ -87,6 +87,7 @@
 ## 👥 Credits
 
 - Ported by: Android Artisan
+- GSI System image originally from MysticGSI
   
 ### Contributors
 - NeverLose
@@ -95,7 +96,8 @@
 
 ### Thank You To
 - HyperOS by Xiaomi  
-- Tools from Samsung & open-source community  
+- Tools from Samsung & open-source community
+- MysticGSI
 
 ---
 
