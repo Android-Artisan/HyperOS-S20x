@@ -77,12 +77,13 @@
 ## 👥 Credits
 
 - Ported by: Android Artisan
-# Contributers: #
-NeverLose
-YacineGTI
-TheExinosHater
+  
+### Contributors
+- NeverLose
+- YacineGTI
+- TheExinosHater
 
-## Thank You To
+### Thank You To
 - HyperOS by Xiaomi  
 - Tools from Samsung & open-source community  
 
