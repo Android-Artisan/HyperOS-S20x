@@ -46,6 +46,11 @@
 - Compatible vendor and boot image already in place  (Flash Ronnz Lineage OS 21 first)
 
 ### Steps:
+- Download the gsi above
+- Download lineage os 21 from Ronzz or Ronnz (forgot username)
+- flash lineage os
+- flash system img
+
 ```bash
 # Reboot to Recovery
 ./adb reboot bootloader
@@ -65,6 +70,9 @@
 
 # Erase and factory reset in wipe then type "yes"
 ```
+- flash multidissabler
+- flash permissiver
+- and then boot
 
 ---
 
