@@ -5,6 +5,18 @@
 
 ---
 
+## 🧾 OS Info
+
+- 🛠️ Build Name: **Artisan ROM Tester Beta V0.0.2**
+- 🧪 HyperOS Version: **2.0.11.0.VNNEUXM**
+- 📱 Android Version: **Android 15 AP3A.240617.008**
+- 🧵 Kernel Version: **N/A**
+- 🔐 Security Patch: **1ST OF NOVEMBER 2024**
+- 👤 Maintainer: **Android Artisan**
+- 🗓️ Build Date: **24TH OF APRIL 2025**
+
+---
+
 ## ✅ Working (as of tester beta 0.0.2)
 
 - 💡 Display
@@ -19,6 +31,7 @@
 ## 🛠️ Bug Fixes
 
 ### 📦 Tester Beta 0.0.2
+- ✅ Fixed AOD Issue on y2s
 - ✅ Added a custom bootanimation.zip
 - ✅ Fixed display initialization issues on boot
 - ✅ Front camera now works when it wants on the y2s
