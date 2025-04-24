@@ -47,7 +47,7 @@
 
 ### Steps:
 - Download the gsi above
-- Download lineage os 21 from Ronzz or Ronnz (forgot username)
+- Download lineage os 21 Ronnz
 - flash lineage os
 - flash system img
 
