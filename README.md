@@ -24,6 +24,8 @@
 - Touchscreen + navigation  
 
 **Broken / WIP:**
+- Play integrity
+- Play Protect certification
 - IMEI Broken
 - Xiaomi Account
 - Google Account
