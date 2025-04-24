@@ -16,20 +16,6 @@
 
 ---
 
-## ❌ Known Bugs / To be fixed
-
-- 📵 No cellular (RIL – no calls, SMS, or mobile data)
-- 🎥 Rear camera not working
-- 🛑 Fingerprint sensor does nothing
-- 🎤 Microphone not detected
-- 🧭 GPS broken
-- 🪞 Face unlock unavailable
-- 💬 VoLTE / VoWiFi missing
-- 🧲 Sensors (proximity, accelerometer, etc.) are dead
-- 🔌 USB OTG untested
-- 🔘 Power button unlock lag
----
-
 ## 🛠️ Bug Fixes
 
 ### 📦 Tester Beta 0.0.2
