@@ -26,6 +26,7 @@
 **Broken / WIP:**
 - IMEI Broken
 - Xiaomi Account
+- Google Account
 - Rear cameras  
 - Fingerprint sensor  
 - Flashlight  
