@@ -8,12 +8,12 @@
 
 **Tested (Exynos Variants):**
 - Samsung Galaxy S20+ 5G - Exynos - SM-G986B
+- Samsung Galaxy S20U - Exynos - SM-G988B
 
 **Untested (Exynos Variants):**
 - Samsung Galaxy S20 4G - Exynos - SM-G980F
 - Samsung Galaxy S20 5G - Exynos - SM-G981B
 - Samsung Galaxy S20+ 4G - Exynos - SM-G985F
-- Samsung Galaxy S20U - Exynos - SM-G988B
 ---
 
 ## 🏗 Current Status
