@@ -24,6 +24,7 @@
 - Touchscreen + navigation  
 
 **Broken / WIP:**
+- IMEI Broken
 - Rear cameras  
 - Fingerprint sensor  
 - Flashlight  
