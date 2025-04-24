@@ -33,6 +33,6 @@
 
 - Drop logs if you’re testing!
 - Only flash this if you know what you’re doing.
-- Contact on XDA: Android Artisan
+- Contact on XDA: [Android Artisan](https://xdaforums.com/m/android-artisan.13071848/)
 
 ---
