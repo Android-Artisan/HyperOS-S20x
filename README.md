@@ -21,7 +21,8 @@
 **Working:**
 - UI boots normally  
 - Front camera  
-- Touchscreen + navigation  
+- Touchscreen + navigation
+- Kernel
 
 **Broken / WIP:**
 - Play integrity
@@ -35,7 +36,6 @@
 - SIM/network (SIM fix non-functional)  
 - VoLTE / VoWiFi  
 - Some sensors  
-- No bundled kernel (use external)  
 
 ---
 
@@ -83,7 +83,7 @@
 
 ## 📋 Notes
 
-- No kernel included , use a compatible one  
+- Currently building Kernel
 - Not a daily driver , for development/testing only  
 - Feedback and logs are welcome and helpful  
 
