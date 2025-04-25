@@ -10,7 +10,7 @@
 - 🛠️ Build Name:       **Artisan ROM Tester Beta V0.0.2**
 - 🧪 HyperOS Version:  **2.0.11.0.VNNEUXM**
 - 📱 Android Version:  **Android 15 AP3A.240617.008**
-- 🧵 Kernel Version:   **N/A**
+- 🧵 Kernel Version:   **4.19.87-ArtisanKRNL-v0.0.2**
 - 🔐 Security Patch:   **1ST OF NOVEMBER 2024**
 - 👤 Maintainer:       **Android Artisan**
 - 🗓️ Build Date:       **24TH OF APRIL 2025**
