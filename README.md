@@ -7,13 +7,13 @@
 ## 📱 Supported Devices
 
 **Tested (Exynos Variants):**
-- Samsung Galaxy S20 4G - x1slte - SM-G980F
-- Samsung Galaxy S20 5G - x1s - SM-G981B
-- Samsung Galaxy S20+ 5G - y2s - SM-G986B
+- Samsung Galaxy S20 4G/5G - x1s/lte - SM-G980F/SM-G981B
+- Samsung Galaxy S20+ 4G/5G - y2s/lte - SM-G985F/SM-G986B
 - Samsung Galaxy S20U - z3s - SM-G988B
 
 **Untested (Exynos Variants):**
-- Samsung Galaxy S20+ 4G - y2slte - SM-G985F
+- Samsung Galaxy Note 20 4G/5G - SM-N980F/SM-N981B
+- Samsung Galaxy Note 20U 4G/5G - SM-N985F/SM-N986B
 ---
 
 ## 🏗 Current Status
