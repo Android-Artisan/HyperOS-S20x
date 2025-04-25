@@ -1,6 +1,6 @@
 
 <h1 align="center">HyperOS Port for Galaxy S20 Series (Exynos)</h1>
-<h3 align="center">Early Tester Build | Fastboot Flashable system.img</h3>
+<h3 align="center">Early Tester Build | Fastboot Flashable system.img | TWRP/PBRP Flashable Kernel boot.img/dtbo.img</h3>
 
 ---
 
