@@ -36,6 +36,7 @@
 - ✅ Fixed display initialization issues on boot
 - ✅ Front camera now works when it wants on the y2s
 - ✅ Touchscreen input now fully functional
+- ✅ ArtisanKRNL V0.0.2
 
 ### 📦 Tester Beta 0.0.1
 - ✅ Fixed Display flikering (Before this update I got early stage epilepsy)
