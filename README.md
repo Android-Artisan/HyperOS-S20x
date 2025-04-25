@@ -22,7 +22,7 @@
 - UI boots normally  
 - Front camera  
 - Touchscreen + navigation
-- Kernel
+- ArtisanKernel V0.0.2
 
 **Broken / WIP:**
 - Play integrity
@@ -44,6 +44,7 @@
 > **Note:** This is a raw `system.img`. It must be flashed via **Fastboot**. Make sure to back up your data and know what you're doing.
 
 ## [HyperOS Download](https://drive.usercontent.google.com/download?id=1evFw-23jmfMp_prehsbECpYtNo04d7L6&export=download&authuser=9)
+## [ArtisanKernel Download](https://github.com/Android-Artisan/android_kernel_samsung_exynos990/releases)
 
 ### Requirements:
 - Unlocked bootloader  
@@ -51,10 +52,11 @@
 - Compatible vendor and boot image already in place  (Flash Ronnz Lineage OS 21 first)
 
 ### Steps:
-- Download the gsi above
-- Download lineage os 21 Ronnz
-- flash lineage os
-- flash system img
+- Download the GSI above
+- Download Lineage OS 21 Ronnz
+- Flash Lineage OS
+- Flash ArtisanKernel
+- Flash system.img
 
 ```bash
 # Reboot to Recovery
@@ -75,15 +77,15 @@
 
 # Erase and factory reset in wipe then type "yes"
 ```
-- flash multidissabler
-- flash permissiver
+- Flash multidissabler
+- Flash permissiver
 - and then boot
 
 ---
 
 ## 📋 Notes
 
-- Currently building Kernel
+- Kernel Built
 - Not a daily driver , for development/testing only  
 - Feedback and logs are welcome and helpful  
 
@@ -93,11 +95,12 @@
 
 - Ported by: Android Artisan
 - GSI System image originally from MysticGSI
+- Kernel By: ExtremeXT
   
 ### Contributors
 - NeverLose
 - YacineGTI
-- TheExynosHater
+- The Exynos Hater
 
 ### Thank You To
 - HyperOS by Xiaomi  
