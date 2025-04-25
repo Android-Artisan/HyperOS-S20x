@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Release Notes | HyperOS | S20x</title>
+  <!-- Add the shared CSS and Tailwind script here -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background: url('https://images.ctfassets.net/7mmwp5vb96tc/113831/a41a2c15f88eb4dfec2f9399467548d9/ms-kong-harald-raftsundet-norway-hgr-130572_1920-photo_stian__klo.jpg?q=40&w=3840&fm=webp') no-repeat center center fixed;
+      background-size: cover;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .glass {
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      background-color: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 1rem;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+    }
+  </style>
+</head>
+<body class="min-h-screen">
+
+  <!-- Navbar -->
+  <header class="glass mx-auto max-w-6xl mt-6 px-6 py-4 flex justify-between items-center text-white">
+    <div class="flex items-center gap-2">
+      <h1 class="text-2xl font-bold drop-shadow">Release Notes | HyperOS</h1>
+      <span class="text-xs bg-yellow-400 text-black px-2 py-0.5 rounded-full">Beta</span>
+    </div>
+    <nav class="space-x-6 text-sm text-white/80">
+      <a href="index.html" class="hover:text-white">Home</a>
+      <a href="install.html" class="hover:text-white">Install</a>
+      <a href="notes.html" class="hover:text-white">Release Notes</a>
+      <a href="about.html" class="hover:text-white">About</a>
+    </nav>
+  </header>
+
+  <main class="glass mx-auto max-w-3xl my-16 p-10">
+    <!-- Release Notes Section -->
+    <h2 class="text-3xl font-semibold mb-6 text-center">🚧 HyperOS Port for Galaxy S20 Series (S20x) – Bug Tracker</h2>
+    <p class="text-center text-sm text-white/80 mb-6">
+      🧪 <strong>Early WIP Build – For testing only</strong><br>
+      This is a development port of HyperOS for the Samsung Galaxy S20 lineup. Most things are broken. This file tracks what's working, what's broken, and what's been fixed by version.
+    </p>
+
+    <hr class="border-white/40 mb-6" />
+
+    <!-- OS Info Section -->
+    <h3 class="text-xl font-semibold mb-4">🧾 OS Info</h3>
+    <ul class="text-sm text-white/80 mb-6">
+      <li><strong>Build Name:</strong> Artisan ROM Tester Beta V0.0.2</li>
+      <li><strong>HyperOS Version:</strong> 2.0.11.0.VNNEUXM</li>
+      <li><strong>Android Version:</strong> Android 15 AP3A.240617.008</li>
+      <li><strong>Kernel Version:</strong> 4.19.87-ArtisanKRNL-v0.0.2</li>
+      <li><strong>Security Patch:</strong> 1ST OF NOVEMBER 2024</li>
+      <li><strong>Maintainer:</strong> Android Artisan</li>
+      <li><strong>Build Date:</strong> 24TH OF APRIL 2025</li>
+    </ul>
+
+    <hr class="border-white/40 mb-6" />
+
+    <!-- Working Section -->
+    <h3 class="text-xl font-semibold mb-4">✅ Working (as of tester beta 0.0.2)</h3>
+    <ul class="text-sm text-white/80 mb-6">
+      <li>💡 Display</li>
+      <li>🤳 Front camera (photos)</li>
+      <li>🔊 Speaker output</li>
+      <li>📶 Wi-Fi</li>
+      <li>📡 Bluetooth</li>
+      <li>✋ Touchscreen</li>
+    </ul>
+
+    <hr class="border-white/40 mb-6" />
+
+    <!-- Bug Fixes Section -->
+    <h3 class="text-xl font-semibold mb-4">🛠️ Bug Fixes</h3>
+    <h4 class="text-lg font-semibold mb-2">📦 Tester Beta 0.0.2</h4>
+    <ul class="text-sm text-white/80 mb-6">
+      <li>✅ Fixed AOD Issue on y2s</li>
+      <li>✅ Added a custom bootanimation.zip</li>
+      <li>✅ Fixed display initialization issues on boot</li>
+      <li>✅ Front camera now works when it wants on the y2s</li>
+      <li>✅ Touchscreen input now fully functional</li>
+      <li>✅ ArtisanKRNL V0.0.2</li>
+    </ul>
+
+    <h4 class="text-lg font-semibold mb-2">📦 Tester Beta 0.0.1</h4>
+    <ul class="text-sm text-white/80 mb-6">
+      <li>✅ Fixed Display flickering (Before this update I got early stage epilepsy)</li>
+    </ul>
+
+    <hr class="border-white/40 mb-6" />
+
+    <!-- Notes Section -->
+    <h3 class="text-xl font-semibold mb-4">💬 Notes</h3>
+    <ul class="text-sm text-white/80 mb-6">
+      <li>Drop logs if you’re testing!</li>
+      <li>Only flash this if you know what you’re doing.</li>
+      <li>Contact on XDA: <a href="https://xdaforums.com/m/android-artisan.13071848/" class="text-yellow-400 hover:underline">Android Artisan</a></li>
+    </ul>
+  </main>
+</body>
+</html>
+

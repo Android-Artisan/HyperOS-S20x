@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | HyperOS | S20x</title>
+  <!-- Add the shared CSS and Tailwind script here -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background: url('https://images.ctfassets.net/7mmwp5vb96tc/113831/a41a2c15f88eb4dfec2f9399467548d9/ms-kong-harald-raftsundet-norway-hgr-130572_1920-photo_stian__klo.jpg?q=40&w=3840&fm=webp') no-repeat center center fixed;
+      background-size: cover;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .glass {
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      background-color: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 1rem;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+    }
+  </style>
+</head>
+<body class="min-h-screen">
+
+  <!-- Navbar -->
+  <header class="glass mx-auto max-w-6xl mt-6 px-6 py-4 flex justify-between items-center text-white">
+    <div class="flex items-center gap-2">
+      <h1 class="text-2xl font-bold drop-shadow">About | HyperOS</h1>
+      <span class="text-xs bg-yellow-400 text-black px-2 py-0.5 rounded-full">Beta</span>
+    </div>
+    <nav class="space-x-6 text-sm text-white/80">
+      <a href="index.html" class="hover:text-white">Home</a>
+      <a href="install.html" class="hover:text-white">Install</a>
+      <a href="notes.html" class="hover:text-white">Release Notes</a>
+      <a href="about.html" class="hover:text-white">About</a>
+    </nav>
+  </header>
+
+  <main class="glass mx-auto max-w-3xl my-16 p-10">
+    <!-- About Page Content -->
+    <h2 class="text-3xl font-semibold mb-6 text-center">👥 Credits & Contributors</h2>
+    <p class="text-center text-sm text-white/80 mb-6">
+      This project is a development port of HyperOS for the Samsung Galaxy S20 series, and it wouldn't be possible without the amazing contributions.
+    </p>
+
+    <hr class="border-white/40 mb-6" />
+
+    <!-- Ported By Section -->
+    <h3 class="text-xl font-semibold mb-4">Ported By</h3>
+    <p class="text-sm text-white/80 mb-6">
+      - <strong>Android Artisan</strong>: The main developer responsible for porting HyperOS to the Galaxy S20 series.
+    </p>
+
+    <!-- System Image & Kernel Section -->
+    <h3 class="text-xl font-semibold mb-4">System Image & Kernel</h3>
+    <p class="text-sm text-white/80 mb-6">
+      - <strong>GSI System image</strong>: Originally sourced from MysticGSI, this system image provides the foundation for the ported build.<br>
+      - <strong>Kernel</strong>: Developed by <strong>ExtremeXT</strong> and Modified by <strong>Android Artisan</strong> to optimize performance and compatibility for HyperOS.
+    </p>
+
+    <hr class="border-white/40 mb-6" />
+
+    <!-- Contributors Section -->
+    <h3 class="text-xl font-semibold mb-4">Contributors</h3>
+    <ul class="text-sm text-white/80 mb-6">
+      <li>- <strong>NeverLose</strong> Posted the Original GSI Which gave me the idea to make this por</li>
+      <li>- <strong>YacineGTI</strong> Without Him this would not be a Port</li>
+      <li>- <strong>The Exynos Hater</strong> Give the best feedback and Ideas</li>
+    </ul>
+
+    <hr class="border-white/40 mb-6" />
+
+    <!-- Thank You To Section -->
+    <h3 class="text-xl font-semibold mb-4">Thank You To</h3>
+    <ul class="text-sm text-white/80 mb-6">
+      <li>- <strong>HyperOS by Xiaomi</strong>: The base operating system that powers this port.<br>
+      </li>
+      <li>- <strong>Tools from Samsung & open-source community</strong>: For providing the essential tools and utilities required for development and flashing.<br>
+      </li>
+      <li>- <strong>MysticGSI</strong>: For the original GSI system image that started this port.</li>
+      </li>
+      <li>- <strong>ExtremeXT</strong>: For the Kernel Used in this port.</li>
+    </ul>
+  </main>
+</body>
+</html>
+

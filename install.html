@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Install | HyperOS | S20x</title>
+  <!-- Add the shared CSS and Tailwind script here -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background: url('https://images.ctfassets.net/7mmwp5vb96tc/113831/a41a2c15f88eb4dfec2f9399467548d9/ms-kong-harald-raftsundet-norway-hgr-130572_1920-photo_stian__klo.jpg?q=40&w=3840&fm=webp') no-repeat center center fixed;
+      background-size: cover;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .glass {
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      background-color: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-radius: 1rem;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+    }
+  </style>
+</head>
+<body class="min-h-screen">
+
+  <!-- Navbar -->
+  <header class="glass mx-auto max-w-6xl mt-6 px-6 py-4 flex justify-between items-center text-white">
+    <div class="flex items-center gap-2">
+      <h1 class="text-2xl font-bold drop-shadow">Install | HyperOS</h1>
+      <span class="text-xs bg-yellow-400 text-black px-2 py-0.5 rounded-full">Beta</span>
+    </div>
+    <nav class="space-x-6 text-sm text-white/80">
+      <a href="index.html" class="hover:text-white">Home</a>
+      <a href="install.html" class="hover:text-white">Install</a>
+      <a href="notes.html" class="hover:text-white">Release Notes</a>
+      <a href="about.html" class="hover:text-white">About</a>
+    </nav>
+  </header>
+
+  <main class="glass mx-auto max-w-3xl my-16 p-10">
+    <!-- Flashing Instructions Section -->
+    <h2 class="text-3xl font-semibold mb-6 text-center">Flashing Instructions</h2>
+    <p class="text-sm text-center text-white/80 mb-4">This is a raw <strong><code>system.img</code></strong>. It must be flashed via <strong>Fastboot</strong>. Make sure to back up your data and follow the steps carefully.</p>
+
+    <h3 class="text-lg font-semibold mb-2 text-center">Downloads</h3>
+    <ul class="text-sm text-white/80 mb-6 text-center">
+      <li><a href="https://drive.usercontent.google.com/download?id=1evFw-23jmfMp_prehsbECpYtNo04d7L6&export=download&authuser=9" class="text-yellow-400 hover:underline">HyperOS Download</a></li>
+      <li><a href="https://github.com/Android-Artisan/android_kernel_samsung_exynos990/releases" class="text-yellow-400 hover:underline">ArtisanKernel Download</a></li>
+    </ul>
+
+    <h4 class="text-lg font-semibold mb-2 text-center">Requirements</h4>
+    <ul class="text-sm text-white/80 mb-6 text-center">
+      <li>Unlocked bootloader</li>
+      <li>ADB & Fastboot installed on your PC</li>
+      <li>Compatible vendor and boot image already in place (Flash Ronnz Lineage OS 21 first)</li>
+    </ul>
+
+    <h4 class="text-lg font-semibold mb-2 text-center">Steps</h4>
+    <p class="text-sm text-white/80 mb-6 text-center">Follow these steps to flash your device:</p>
+
+    <div class="bg-black/40 p-4 rounded-lg text-sm font-mono">
+      <pre class="text-white/80 whitespace-pre-wrap">
+# Reboot to Recovery
+./adb reboot bootloader
+
+# Once in Recovery reboot to FastBootD
+
+# Erase partitions
+./fastboot erase system
+./fastboot delete-logical-partition product
+./fastboot delete-logical-partition system_ext
+
+# Flash system image
+./fastboot flash system /Path/To/system.img
+
+# Reboot to recovery
+./fastboot reboot recovery
+
+# Erase and factory reset in wipe then type "yes"
+      </pre>
+    </div>
+
+    <p class="text-sm text-white/80 mt-4 text-center">After flashing, proceed with the following:</p>
+    <ul class="text-sm text-white/80 mb-6 text-center">
+      <li>Flash multidissabler</li>
+      <li>Flash permissiver</li>
+      <li>Then boot your device</li>
+    </ul>
+  </main>
+</body>
+</html>
+
