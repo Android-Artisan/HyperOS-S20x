@@ -3,6 +3,9 @@
 <h3 align="center">Early Tester Build | Fastboot Flashable system.img | TWRP/PBRP Flashable Kernel boot.img/dtbo.img</h3>
 
 ---
+## 📱 Development Stopped Temporarily
+
+---
 
 ## 📱 Supported Devices
 
